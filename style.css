@@ -1,0 +1,89 @@
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    }
+    .navbar li a:hover{
+       color: #eea107;
+        }
+.navbar li{
+        list-style: none;
+        margin-right: 20px;
+    }
+
+.srh{
+    background: #eea107;
+    padding: 7px 8px;
+    border-radius: 50%;
+    width: 40px;
+
+}
+
+.header{
+    background: rgba(20, 20, 20, 0.9) url(kids.jpg); 
+    background-size: cover;
+    background-blend-mode: darken;
+    height: inherit;
+}
+
+.navbar-use h2{
+    color: #e9b140;
+}
+.hero-contents .btn-1{
+    border: 1px solid #eea107;
+    color: #eea107;
+}
+.hero-contents .btn-1:hover{
+    border: 1px solid #ffffff;
+    color: #f5d9a2;
+}
+
+.hero-contents .btn-2{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.hero-contents .btn-2:hover{
+    border: 1px solid #f1cd8b;
+    color: #ffffff;
+}
+
+
+.grid-back{
+    background: #e9b140;
+    height:200px;
+}
+
+.grid{
+    background: rgb(255, 251, 251);
+    
+}
+
+
+@media(min-width:375px){
+    .grid{
+        animation-name: slide;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-delay: 0;
+       
+    }
+    @keyframes slide {
+        from{
+            transform: translateX(-375px);
+        }
+        to{
+            transform: translateX(0px);
+        }
+        
+    }
+    .hero-contents h1{
+        font-size: 50px;
+    }
+    .hero-contents p{
+        font-size: 16px;
+    }
+}
+
+
+
+

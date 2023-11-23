@@ -60,6 +60,9 @@
 
 
 @media(min-width:375px){
+    .hero button{
+        margin:5px 0;
+    }
     .grid{
         animation-name: slide;
         animation-duration: 1s;

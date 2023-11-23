@@ -60,7 +60,7 @@
 
 
 @media(min-width:375px){
-    .hero button{
+    button{
         margin:5px 0;
     }
     .grid{
